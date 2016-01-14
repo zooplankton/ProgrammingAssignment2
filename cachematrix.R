@@ -3,6 +3,7 @@
 library(digest)
 ## Write a short comment describing this function
 ## Helper function for caching a matrix solution
+## stores a checksum of the matrix the object is nitialized with
 ## returns special matrix object with functions
 makeCacheMatrix <- function(x = matrix()) {
   soln <- NULL
